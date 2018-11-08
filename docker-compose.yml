@@ -1,0 +1,11 @@
+version: '3'
+services:
+  db:
+    image: timescale/timescaledb
+    container_name: dw-timescale-db
+    volumes:
+      - ./data:/var/lib/postgresql/data
+    environment:
+     - NODE_ENV=production
+    ports:
+     - 5432:5432

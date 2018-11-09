@@ -6,6 +6,8 @@ services:
     volumes:
       - ./data:/var/lib/postgresql/data
     environment:
-     - NODE_ENV=production
+      POSTGRES_DB: data-warehousing
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
     ports:
      - 5432:5432

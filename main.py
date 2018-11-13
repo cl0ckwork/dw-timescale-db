@@ -5,7 +5,9 @@ if __name__ == '__main__':
     cur = conn.cursor()
 
     # Query the database and obtain data as Python objects.
-    cur.execute('SELECT * from pg_extension;')
+    cur.execute('''
+SELECT * from pg_extension;
+''')
     results = cur.fetchall()
     for result in results:
         print(result)

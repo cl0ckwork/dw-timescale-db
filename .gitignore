@@ -5,9 +5,11 @@ __pycache__/
 # C extensions
 *.so
 
+
 # misc
 data/**
 .idea/**
+*.pem
 
 # Distribution / packaging
 .Python

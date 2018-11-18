@@ -1,6 +1,6 @@
-CREATE DATABASE twitterdb;
+#CREATE DATABASE data-warehousing;
 
-\c twitterdb;
+\c data-warehousing;
 
 DROP TABLE IF EXISTS TWITTER CASCADE;
 

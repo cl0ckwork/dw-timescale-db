@@ -40,3 +40,6 @@ docker-machine create \
 dw-timescale-db
 
 ```
+
+## Queries
+https://docs.timescale.com/v1.0/tutorials/tutorial-hello-nyc
